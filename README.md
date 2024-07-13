@@ -1,0 +1,1 @@
+# praktikum_qa_diplom
