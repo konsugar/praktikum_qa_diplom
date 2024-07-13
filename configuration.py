@@ -1,5 +1,5 @@
 # адрес стенда
-URL_SERVICE = "https://0a27787e-fed6-48d4-9b11-e0f9bdb4dac7.serverhub.praktikum-services.ru/"
+URL_SERVICE = "https://28891d49-7bd9-4c44-b1ed-c4fd3fdd4afa.serverhub.praktikum-services.ru/"
 
 # на случай ошибок
 LOG_MAIN_PATH = "/var/www/backend/logs/"

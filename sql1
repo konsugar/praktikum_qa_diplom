@@ -1,0 +1,19 @@
+-- Вывести список логинов курьеров с количеством их заказов (id в "Orders") в статусе idDelivery = true
+
+SELECT
+    c.login AS "login",
+    COUNT(o.id) AS "order_count"
+FROM
+    "Couriers" c
+INNER JOIN
+    "Orders" o
+ON
+    c.id = o."courierId"
+WHERE
+    o."inDelivery" = true
+GROUP BY
+    c.login;
+
+-- Ещё можно отсортировать выдачу по убыванию
+-- ORDER BY
+--    order_count DESC;
