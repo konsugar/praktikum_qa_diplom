@@ -8,7 +8,7 @@ new_order_body = {
     "firstName": "firstname_test",
     "lastName": "lastname_test",
     "address": "address_test",
-    "metroStation": 1,
+    "metroStation": 107,
     "phone": "+99999999999",
     "rentTime": 1,
     "deliveryDate": "2024-12-31",
